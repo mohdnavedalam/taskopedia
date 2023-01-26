@@ -29,7 +29,6 @@ function MainBody() {
 
   return (
     <div>
-      <p>In this course, we will learn react js by building TaskOPedia!</p>
       <p>
         In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
       </p>
