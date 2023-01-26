@@ -34,8 +34,6 @@ function MainBody() {
         In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
       </p>
       <ul>
-        <li>Call Ben</li>
-        <li>Go to walmart</li>
         <li>Basic Foundation</li>
         <li>Functional and Class Components</li>
       </ul>
