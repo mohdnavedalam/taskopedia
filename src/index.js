@@ -26,16 +26,22 @@ function Header() {
 
 function MainBody() {
   const whatWeWillLearn = "React JS";
+  const totalLectures = 3;
 
   return (
     <div>
       <p>
         In this course, we will learn {whatWeWillLearn} by building TaskOPedia!
+        <br />
+        Total Lectures - {totalLectures}
       </p>
       <ul>
         <li>Basic Foundation</li>
         <li>Functional and Class Components</li>
       </ul>
+      <div>
+        Enter Task : <input maxLength={20} readOnly={false} placeholder="Naved"></input>
+      </div>
     </div>
   );
 }
