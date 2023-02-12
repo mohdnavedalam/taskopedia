@@ -10,7 +10,7 @@ export default function Students() {
           <div className='col-2'>
             <img
               src={`https://ui-avatars.com/api/?name=${fullName}`}
-              className='w-100'>
+              className='w-50'>
             </img>
           </div>
           <div className='col-10'>
