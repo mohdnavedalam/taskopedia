@@ -37,9 +37,9 @@ root.render(
       <Header />
       <MainBody />
       <div className="row">Students Enrolled</div>
-      <Student fullName="Peter Parker" programmingExperience={47}/>
-      <Student fullName="Clarke Kent" programmingExperience={70}/>
-      <Student fullName="Tony Stark" programmingExperience={57}/>
+      <Student fullName="Peter Parker" workExperience={47} />
+      <Student fullName="Clarke Kent" workExperience={70} />
+      <Student fullName="Tony Stark" workExperience={57} />
       <Footer />
     </div>
   </React.StrictMode>
