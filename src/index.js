@@ -3,7 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "../src/CSS/style.css";
 import Header from "./Components/Header";
-import Students from "./Components/Students";
+import Student from "./Components/Students";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -33,10 +33,13 @@ function Footer() {
 }
 root.render(
   <React.StrictMode>
-    <div>
+    <div className="container">
       <Header />
       <MainBody />
-      <Students />
+      <div className="row">Students Enrolled</div>
+      <Student fullName="Peter Parker" programmingExperience={47}/>
+      <Student fullName="Clarke Kent" programmingExperience={70}/>
+      <Student fullName="Tony Stark" programmingExperience={57}/>
       <Footer />
     </div>
   </React.StrictMode>
