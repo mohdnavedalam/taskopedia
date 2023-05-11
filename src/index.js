@@ -33,7 +33,7 @@ function Footer() {
 }
 root.render(
   <React.StrictMode>
-    <div className="container">
+    <div className="container dark-mode">
       <Header />
       <MainBody />
       <div className="row">Students Enrolled</div>
