@@ -1,6 +1,6 @@
 import logo from '../../images/logo192.png';
 import '../../CSS/style.css';
-function MainHeader() {
+const MainHeader = () => {
     return (
         <div className='pt-3 py-1 pl-2 banner-background banner-align'>
             <img src={logo} alt='react-logo' className='logo-size' ></img>
@@ -13,10 +13,10 @@ const subHeaderStyle = {
     color: "blueviolet",
     backgroundColor: "lightgray",
 };
-function SubHeader() {
+const SubHeader = () => {
     return <p style={subHeaderStyle} className='text-center'>This will be an exciting course.</p>;
 }
-export default function Header() {
+const Header = () => {
     return (
         <div>
             <MainHeader></MainHeader>
@@ -25,4 +25,4 @@ export default function Header() {
     );
 }
 
-// export default Header;
+export default Header;
