@@ -3,7 +3,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "../src/CSS/style.css";
 import Header from "./Components/Layout/Header";
-import Student from "./Components/Students";
 import Footer from './Components/Layout/Footer';
 import MainBody from './Components/MainBody';
 
