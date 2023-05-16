@@ -1,0 +1,8 @@
+export default function StudentReview () {
+    return (
+        <div className="p-2">
+            <i className="bi bi-hand-thumbs-up-fill text-success p-1 cursor-styles"></i> 
+            <i className="bi bi-hand-thumbs-down-fill text-danger p-1 cursor-styles"></i>
+        </div>
+    );
+}

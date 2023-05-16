@@ -13,7 +13,9 @@ root.render(
     <div className="dark-mode">
       <div>
         <Header />
-        <MainBody />        
+        <div className="px-4">
+          <MainBody />
+        </div>
         <Footer />
       </div>
     </div>
