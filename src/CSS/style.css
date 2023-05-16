@@ -2,3 +2,29 @@
     background-color: #404040;
     color: #ffffff;
 }
+
+.logo-size {
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.banner-align {
+    display: inline-flex;
+}
+
+.banner-background {
+    background-color: #1a1a1a;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+
+.footer-styles {
+        color: gray;
+        background-color: black;
+        margin-top: 10px;
+        text-align: center;
+        padding-bottom: 5px;
+}
+

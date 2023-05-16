@@ -1,5 +1,12 @@
+import logo from '../../images/logo192.png';
+import '../../CSS/style.css';
 function MainHeader() {
-    return <h1 className="heading1">REACT COURSE</h1>;
+    return (
+        <div className='pt-3 py-1 pl-2 banner-background banner-align'>
+            <img src={logo} alt='react-logo' className='logo-size' ></img>
+            <h1 className="heading1">REACT COURSE - TASKOPEDIA</h1>
+        </div>
+    );
 }
 
 const subHeaderStyle = {
